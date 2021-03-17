@@ -2,10 +2,10 @@
   "name": "webpack-demo",
   "version": "1.0.0",
   "description": "base study!",
-  "private":true,
+  "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prod":"webpack"
   },
   "repository": {
     "type": "git",
