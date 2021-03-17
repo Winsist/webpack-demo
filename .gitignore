@@ -1,0 +1,12 @@
+node_modules
+dist
+dist*/
+HV
+npm-debug.log
+package-lock.json
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+*.rar
+*.zip
+
