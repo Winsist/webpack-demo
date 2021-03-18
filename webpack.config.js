@@ -11,12 +11,12 @@ module.exports = {
                 test:/\.(png|jpe?g|gif)$/i,
                 use:[
                     {
-                        loader:'file-loader',
+                        loader:'url-loader',
                         options:{
                             //placeholder 占位符
-                            // name:'images/[name].[ext]'
                             name:'[name].[ext]',
-                            outputPath:'images'
+                            outputPath:'images',
+                            limit:204800
                         }
                     }
                 ]
