@@ -1,11 +1,19 @@
 //ES Module模块引入方式
-import Header from './header.js'
-import Content from './content.js'
-import Slider from './slider.js'
+// import Header from './header.js'
+// import Content from './content.js'
+// import Slider from './slider.js'
+import love from './love.jpg'
 
-new Header();
-new Content();
-new Slider();
+console.log(love);
+
+var root = document.getElementById('root');
+var img = new Image();
+img.src = love;
+root.append(img)
+
+// new Header();
+// new Content();
+// new Slider();
 
 
 //CommonJs 模块引入规范
