@@ -12,6 +12,12 @@ module.exports = {
                 use:[
                     {
                         loader:'file-loader',
+                        options:{
+                            //placeholder 占位符
+                            // name:'images/[name].[ext]'
+                            name:'[name].[ext]',
+                            outputPath:'images'
+                        }
                     }
                 ]
             }
