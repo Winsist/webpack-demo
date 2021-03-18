@@ -3,12 +3,14 @@
 // import Content from './content.js'
 // import Slider from './slider.js'
 import love from './love.jpg'
+import './index.less';
 
 console.log(love);
 
 var root = document.getElementById('root');
 var img = new Image();
 img.src = love;
+img.classList.add('pic');
 root.append(img)
 
 // new Header();
